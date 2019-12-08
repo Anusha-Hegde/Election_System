@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Party</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index_effects.css">
+        <link rel="stylesheet" type="text/css" href="about_effects.css">
+        <link rel="stylesheet" type="text/css" href="contact_effects.css">
+         <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+         <style>
+            body { background-image: url("vote2.jpg");}
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <a class="logo">ELECTION COMMISSION</a>
+            <div class="header-right">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contacts_front.html">Contact</a>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="subnav">
+                <button class="subnavbtn">Party</button>
+                <div class="subnav-content">
+                    <a href="party_entry.html">New</a>
+                    <a href="party2.php">Display</a>
+                     <a href="query.php">Query</a>
+                </div>
+            </div> 
+            <div class="subnav">
+                <button class="subnavbtn">Constituencies</button>
+                <div class="subnav-content">
+                    <a href="area_entry.html">New</a>
+                    <a href="area2.php">Display</a>
+                   
+                </div>
+            </div> 
+            <div class="subnav">
+                <button class="subnavbtn">Candidates</button>
+                <div class="subnav-content">
+                    <a href="candi_entry.html">New</a>
+                    <a href="candi2.php">Display</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <a href="voter.html">Vote Now</a>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">Results</button>
+                <div class="subnav-content">
+                    <a href="results.php">Show Results</a>
+                </div>
+            </div>            
+        </div>
+        <br/><br/>
+        <br/><br/>
+        
+        <div align="center">
+        <div class="container">
+            <h1 align="center">Enter the party details...</h1>
+            <form method="post" action="party1.php">
+                <table align="center" width="75%">
+                    <tr>
+                        <th>  Party No:</th>
+                        <td><input type="number" name="pno"/></td>
+                    </tr>
+                    <tr>
+                        <th>  Party Name:</th>
+                        <td><input type="text" name="pname" placeholder="Party name"/></td>
+                    </tr>
+                    <tr>
+                        <th>  Party Head:</th>
+                        <td><input type="text" name="phead" placeholder="Party Head"/><br/></td>
+                    </tr>
+                </table>
+                <input type="hidden" name="form_submitted" value="1" />
+                <input type="submit" value="Submit"/>
+            </form>
+        </div>
+        </div>
+
+    </body>
+</html>
