@@ -10,17 +10,17 @@ Skills included:
 ScreenShots:
 
 - Website description
-![ ](about section.png)
+![ ](Screenshots/about section.png)
 
 - Entering Party details
-![ ](party details.png)
-![ ](party created.png)
+![ ](Screenshots/party details.png)
+![ ](Screenshots/party created.png)
 
 - Entering Voter details
-![ ](voter details.png)
+![ ](Screenshots/voter details.png)
 
 - Database after entering the information 
-![ ](database.png)
+![ ](Screenshots/database.png)
 
 - Results visible to admin
-![ ](result details.png)
+![ ](Screenshots/result details.png)
