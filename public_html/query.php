@@ -2,7 +2,7 @@
 $dbhost = "localhost";
  $dbuser = "root";
  $dbpass = "";
- $db = "electiondb";
+ $db = "elec";
  $conn = new mysqli($dbhost, $dbuser, $dbpass, $db) or die(mysqli_error);
  ?>
 <!DOCTYPE html>
